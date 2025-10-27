@@ -57,4 +57,15 @@ let number = 144;
 let sqrtNumber = Math.sqrt(number);
 console.log(sqrtNumber);
 
-// 9th task (не зрозумів як, тому не зрробив)
+// 9th task (не зрозумів як, тому не зробив)
+
+const integer = 42; 
+const stringNumber = "256";
+
+const convertedInt = parseInt(stringNumber);
+console.log(typeof convertedInt, "convertedInt");
+
+//////
+
+const convertedString = integer.toString();
+console.log(typeof convertedString, "convertedString");
